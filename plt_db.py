@@ -15,8 +15,7 @@ df.head()
 
 print(df)
 
-#sample_data={'fTimeStamp',
- #     'fHighVoltage'}
+#sample_data={'fTimeStamp','fHighVoltage'}
 #sns.scatterplot(x="fTimeStamp", y="fHighVoltage", data=df)
 
 
