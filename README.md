@@ -1,2 +1,2 @@
 # Slow Control DUNE DB
-Extract and Store ProtoDUNE Slow Control data
+Extract and Store ProtoDUNE Slow Control database
