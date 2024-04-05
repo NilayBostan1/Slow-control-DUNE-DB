@@ -21,6 +21,9 @@ print(df)
 
 style.use('dark_background')
 
+df['fHighVoltage'].plot(kind='hist', bins=20, title='fHighVoltage')
+plt.gca().spines[['top', 'right',]].set_visible(False)
+
 df.plot(kind='scatter', x='fTimeStamp', y='fHighVoltage', s=32, alpha=.8)
 plt.gca().spines[['top', 'right',]].set_visible(True)
 plt.savefig('HV_TimeStamp.png')
