@@ -5,7 +5,7 @@ To get the data from json to csv:
 
 curl http://.../day/YY-MM-DD/ID > output.json
 
-Then using a simple python script, you can transform the json file to a .csv file (assuming the whole content fits into memory):
+By using a simple python script, we can transform the json file to a .csv file:
 
 import json, csv
 
