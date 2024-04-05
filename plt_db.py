@@ -10,7 +10,7 @@ import seaborn as sns
 import sys
 
 cols = ["fTimeStamp", "fHighVoltage"]
-df = pd.read_csv("/data/NP04_DCS_01_Heinz_V_Apr3.csv", names =cols)
+df = pd.read_csv("data/NP04_DCS_01_Heinz_V_Apr3.csv", names =cols)
 df.head()
 
 print(df)
